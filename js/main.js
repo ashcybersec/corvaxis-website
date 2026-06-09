@@ -225,4 +225,10 @@
   if (yearEl) {
     yearEl.textContent = new Date().getFullYear();
   }
+
+  /* ----- Dynamic Privacy Year ----- */
+  const privacyYearEl = document.getElementById('privacy-year');
+  if (privacyYearEl) {
+    privacyYearEl.textContent = new Date().getFullYear();
+  }
 })();
